@@ -1,0 +1,9 @@
+para poder correr esto previamente se tiene que tener instalado lo que es php artisan con composer y correr el siguiente comando
+php artisan serve recuerde estar posicionado en la crapeta de crud dentro de htdocs en  local y corerra en uns ervido localhost:8000/users
+
+
+instalar la BD y tener configurado en archivo database.php con la configuracionbes de sus datos
+
+
+
+ENJOY !!!!!!!!!!!!
