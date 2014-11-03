@@ -9,7 +9,7 @@ Log::error($users);
 ?>
 
 @foreach ($users as $user)
-{{ Log::error ($user->name); $user->name; }}
+{{ $user->id; }}
 @endforeach
 
 
