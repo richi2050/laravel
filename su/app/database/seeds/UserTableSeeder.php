@@ -16,7 +16,7 @@ class UserTableSeeder extends Seeder {
                 'first_name'=> $NameUs,
                 'last_name' => $faker->lastName,
                 'last_mon' => $faker->lastName,
-                'user' => $faker->userName,
+                'username' => $faker->userName,
                 'password' => \Hash::make('1234'),
                 'email' => $faker->email,
                 'slug' => \Str::slug($NameUs),
