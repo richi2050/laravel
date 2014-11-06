@@ -92,4 +92,10 @@ class UserController extends \BaseController
 
     }
 
+
+    public function indexAdmin(){
+        return View::make('users.admin');
+    }
+
+
 }

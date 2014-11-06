@@ -1,0 +1,151 @@
+/*
+#menu {
+font-family: 'Montserrat';
+width: 100%;
+height: 45px;
+}
+ ul#nav {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+ul#nav li a {
+float: left;
+line-height: 40px;
+color: #183448;
+text-decoration: none;
+margin: 0;
+padding: 0 30px;
+background: #e6e5e3;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: #767886
+}
+ul#nav li.actual a {
+float: left;
+line-height: 40px;
+color: #fff;;
+text-decoration: none;
+margin: 0;
+padding: 0 30px;
+background: #E53857;
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: #767886
+}
+ul#nav li:hover > a  {
+color: #fff;
+text-decoration: none;
+background: #E53857;
+}
+
+ Estilos Nuevos
+
+.general {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+.subtitutlos {
+	line-height: 40px;
+	color: #183448;
+	background: #f8f8f8;
+	font-weight: 900;
+}
+.Fam {
+	background-color: #e6e5e3;
+}
+.campFam {
+	width: 33.3%;
+	background-color: #e6e5e3;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.general tr .campFam:hover {
+	color:#FFF;
+	background-color: #df1b43;
+	cursor: pointer;
+}
+.general tr .campFam.selected {
+	color:#FFF;
+	background-color: #df1b43;
+}
+.Catego {
+	background-color: #e9e9e8;
+}
+.campCatego {
+	width: 33.3%;
+	background-color: #e9e9e8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.general tr .campCatego:hover{
+	color:#FFF;
+	background-color: #df1b43;
+	cursor: pointer;
+}
+.general tr .campCatego.selected {
+	background-color: #df1b43;
+	color:#FFF;
+}
+.SubCat {
+	background-color: #f0f0f0;
+}
+.campSubCat {
+	width: 33.3%;
+	background-color: #f0f0f0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.general tr .campSubCat:hover{
+	color:#FFF;
+	background-color: #df1b43;
+	cursor: pointer;
+}
+.general tr .campSubCat.selected {
+	background-color: #df1b43;
+	color:#FFF;
+}
+.agregar {	
+	background-color: #E53857;
+	font-family: 'Montserrat';
+	font-size:10px;
+	width: 33.3%;
+}
+.agregar a {
+	color: #FFF;
+	width:100%;
+	display:block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+.agregar:hover {
+	background-color: #e45c74;	
+}
+.eliminar {
+	background-color: #193347;
+	font-family: 'Montserrat';	
+	font-size:10px;
+	width: 33.3%;
+}
+.eliminar a {
+	color: #FFF;
+	width:100%;
+	display:block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+.eliminar:hover {
+	background-color: #425766;	
+}
+*/

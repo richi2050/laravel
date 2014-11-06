@@ -15,9 +15,18 @@ Route::get('/', function()
 {
 	return View::make('login');
 });
+
 Route::get('/users',function(){
     return View::make('users.list');
 });
 
 
 Route::get('/list','UserController@lista');
+
+
+Route::post('login',array('us' =>'login','uses'=>'AuthController@postLogin'));
+
+
+Route::get('admin/dashboard',array('us' => 'admin','uses'=>'UserController@indexAdmin'));
+
+

@@ -1,0 +1,56 @@
+
+
+
+#content {
+	width: 500px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#main-layout {
+    padding: 5px;
+    width: 960px;
+
+}
+
+#buton {
+    clear: both;
+    padding: 0 15px;
+}
+
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+	#content {
+		width: 100%;
+
+	}
+
+
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+
+
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+
+}
+
+
