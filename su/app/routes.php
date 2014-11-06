@@ -13,7 +13,13 @@
 
 Route::get('/', function()
 {
-	return View::make('login');
+    if (Auth::check())
+    {
+        return View::make('users.admin');
+    }
+
+    return View::make('login');
+
 });
 
 Route::get('users',function(){
