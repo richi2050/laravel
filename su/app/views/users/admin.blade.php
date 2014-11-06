@@ -1,5 +1,7 @@
 @extends('layout')
-
+@section('title')
+Administrador
+@stop
 
 @section('contenido')
 

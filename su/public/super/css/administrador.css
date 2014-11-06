@@ -1698,3 +1698,24 @@ footer {
     text-align: center;
     text-decoration: none;
 }
+
+.pagination{
+    list-style: none;
+    text-align: center;
+}
+.pagination li{
+    display:inline-block;
+    margin-right: 10px;
+}
+.pagination li a{
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #D62245;
+}
+.active{
+    display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        background: #152538;
+}

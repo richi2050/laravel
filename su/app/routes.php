@@ -16,17 +16,28 @@ Route::get('/', function()
 	return View::make('login');
 });
 
-Route::get('/users',function(){
+Route::get('users',function(){
     return View::make('users.list');
 });
 
+Route::get('admin/user/new',function(){
+    return View::make('users.new_admin');
+});
 
-Route::get('/list','UserController@lista');
+
+Route::get('admin/{user}/edit/{id}',array('uses' => 'UserController@editAdmin'));
+
+
+
+
+Route::get('admin/usuarios',array('us'=>'lista','uses'=>'UserController@lista'));
 
 
 Route::post('login',array('us' =>'login','uses'=>'AuthController@postLogin'));
 
 
 Route::get('admin/dashboard',array('us' => 'admin','uses'=>'UserController@indexAdmin'));
+
+Route::get('logout',array('us' =>'logout','uses' => 'AuthController@logOut'));
 
 

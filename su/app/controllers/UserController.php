@@ -98,4 +98,12 @@ class UserController extends \BaseController
     }
 
 
+   public function editAdmin($user,$id){
+
+       return $user.'eee'.$id;
+
+
+   }
+
+
 }
