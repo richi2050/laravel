@@ -28,7 +28,7 @@ class AuthController extends \BaseController
         );
 
         // Validamos los datos y además mandamos como un segundo parámetro la opción de recordar el usuario.
-        if (Auth::attempt($userdata, Input::get('remember-me', 0))) {
+        /*if (Auth::attempt($userdata, Input::get('remember-me', 0))) {
 
 
             switch (Auth::user()->id_rol) {
@@ -55,7 +55,8 @@ class AuthController extends \BaseController
             }
             // De ser datos válidos nos mandara a la bienvenida
             //return Redirect::to('/');
-        } else if (Auth::attempt($userdataEmail, Input::get('remember-me', 0))) {
+        } else*/
+        if (Auth::attempt($userdataEmail, Input::get('remember-me', 0))) {
 
 
             switch (Auth::user()->id_rol) {

@@ -30,10 +30,12 @@ Route::get('admin/user/new',function(){
     return View::make('users.new_admin');
 });
 
+Route::get('admin/user/destroy/{id}',array('uses'=>'UserController@destroyAdmin'));
 
-Route::get('admin/{user}/edit/{id}',array('uses' => 'UserController@editAdmin'));
 
+Route::get('admin/edit/{id}',array('uses' => 'UserController@editAdmin'));
 
+Route::post('admin/save/user',array('uses'=> 'UserController@saveAdmin'));
 
 
 Route::get('admin/usuarios',array('us'=>'lista','uses'=>'UserController@lista'));

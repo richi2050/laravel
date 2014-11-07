@@ -30,7 +30,7 @@
 }
 
 input[type='checkbox'].wskCheckbox {
-   display: none;
+   /*display: none;*/
 }
 
 .wskCircle {

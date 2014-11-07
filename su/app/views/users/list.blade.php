@@ -15,9 +15,9 @@ Usuarios
     @foreach ($users as $user)
     <tr>
         <td class="">{{ $user->first_name.' '.$user->last_name; }}</td>
-        <td class="actions edit"><a href="{{URL::to('admin',[$user->username,'edit',$user->id] )}}">EDITAR</a></td>
-        <td class="actions delete"><a href="#popDelete" class="delete" data-id="27"
-                                      data-name="Ricardo lugo">ELIMINAR</a></td>
+        <td class="actions edit"><a href="{{URL::to('admin',['edit',$user->id] )}}">EDITAR</a></td>
+        <td class="actions delete"><a href="#popDelete" class="delete" data-id="{{$user->id}}"
+                                      data-name="{{ $user->first_name.' '.$user->last_name; }}">ELIMINAR</a></td>
     </tr>
     @endforeach
     <tr>
@@ -30,7 +30,7 @@ Usuarios
 
     <p>¿ESTAS SEGURO DE ELIMINAR USUARIO <span class="name"></span>?</p>
     <a class="no" href="#">NO, REGRESAR</a>
-    <a class="si" href="#" data-href="/superabogado/admin/usuario-eliminar?id=27">SI, ELIMINAR</a>
+    <a class="si" href="#" data-href="#">SI, ELIMINAR</a>
     <span class="clear">&nbsp;</span>
 </div>
 <script>
@@ -43,7 +43,7 @@ Usuarios
         $('.delete').on('click', function (event) {
             event.preventDefault();
             $('#popDelete .name').html($(this).attr('data-name'));
-            $('#popDelete a.si').attr('href', '/superabogado/admin/actions/usuario-eliminar.php?id=' + $(this).attr('data-id'));
+            $('#popDelete a.si').attr('href', '{{URL::to('admin/user/destroy')}}/' + $(this).attr('data-id'));
             $.fancybox.open({href: '#popDelete'});
             return false;
         });

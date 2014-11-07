@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="{{ asset('super/css/texto.css') }}"/>
     <link rel="stylesheet" href="{{ asset('super/css/style-auto.css') }}"/>
     <link rel="stylesheet" href="{{ asset('super/css/style-select.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('super/css/jquery.toastmessage.css') }}"/>
     <script src="{{ asset('super/js/jquery-2.1.1.min.js') }}"></script>
+
     <script src="{{ asset('super/js/jquery-ui.js') }}"></script>
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="{{ asset('super/fancybox/jquery.fancybox.css?v=2.1.5') }}" type="text/css"
@@ -33,6 +35,7 @@
             src="{{ asset('super/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7') }}"></script>
 
     <script src="{{ asset('super/js/main.js') }}"></script>
+
 
 
 </head>
@@ -104,5 +107,7 @@
 
     @yield('contenido')
 </main>
+<script src="{{ asset('super/js/checkbox.js') }} "></script>
+  <script src="{{ asset('super/js/jquery.toastmessage.js') }}"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 @extends('layout')
 @section('contenido')
 <h2>INICIAR SESION</h2>
-        {{ Form::open(array('url' => '/login')) }}
+        {{ Form::open(array('url' => '/login','id' => 'loginForm', 'name'=> 'loginForm')) }}
 
 		<table>
 			<tr>
